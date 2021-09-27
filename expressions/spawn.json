@@ -1,0 +1,21 @@
+{
+    "variables": [
+        {
+            "name": "clover",
+            "styleValue": {
+                "style": "CLOVER_HERMITE",
+                "zoom": 6,
+                "exponent": 1.2
+            }
+        },
+        {
+            "name": "land",
+            "staticValue": 200
+        },
+        {
+            "name": "ocean",
+            "staticValue": 500
+        }
+    ],
+    "expression": "clover + (x * x + z * z < ocean * ocean && x * x + z * z > land * land)"
+}

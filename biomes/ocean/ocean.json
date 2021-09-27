@@ -151,6 +151,42 @@
             "mode": "FAST_MIN_HEIGHT",
             "underwater": true,
             "waterloggable": true
+        },
+        {
+            "place": [
+                "structures/oceanmonument"
+            ],
+            "chance": 0.001,
+            "mode": "STILT",
+            "underwater": true,
+            "waterloggable": true,
+            "edit": [
+                {
+                    "chance": 0.60,
+                    "find": [{"block": "minecraft:wet_sponge"}],
+                    "replace": {
+                        "palette": [{"block": "minecraft:water"}]
+                    }
+                },
+                {
+                    "find": [{"block": "minecraft:emerald_block"}],
+                    "replace": {
+                        "palette": [{"block": "minecraft:water"}]
+                    }
+                }
+            ],
+            "markers": [
+                {
+                    "mark": [{"block": "minecraft:emerald_block"}],
+                    "marker": "elder_guardian",
+                    "maximumMarkers": 5
+                },
+                {
+                    "mark": [{"block": "minecraft:air"}],
+                    "marker": "guardian",
+                    "maximumMarkers": 80
+                }
+            ]
         }
     ]
 }

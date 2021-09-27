@@ -5,11 +5,11 @@
     "fluidHeight": 63,
     "continentZoom": 1,
     "continentalStyle": {
-        "style": "NOWHERE_CELLULAR",
-        "zoom": 5
+        "expression": "spawn"
     },
+    "minY": -64,
     "landChance": 0.69,
-    "biomeZoom": 5,
+    "biomeZoom": 15,
     "regionStyle": {
         "style": "NOWHERE_CELLULAR",
         "fracture": {
@@ -24,7 +24,7 @@
             }
         }
     },
-    "regionZoom": 6.15,
+    "regionZoom": 18.15,
     "regions": [
         "mushroom",
         "swamp",
@@ -260,5 +260,47 @@
     "maxStrongholds": 27,
     "decorate": true,
     "skylandBiomeStyle": {"style": "CELLULAR_IRIS_DOUBLE"},
-    "islandBiomeStyle": {"style": "CELLULAR_IRIS_DOUBLE"}
+    "islandBiomeStyle": {"style": "CELLULAR_IRIS_DOUBLE"},
+    "specificF___eatures": [
+        {
+            "x": 0,
+            "z": 0,
+            "feature": {
+                "blockRadius": 300,
+                "customBiome": "temperate/osaka-red-forest",
+                "convergeToHeight": 68,
+                "objectChance": 0,
+                "fractureRadius": {
+                    "style": "IRIS"
+                }
+            }
+        },
+        {
+            "x": 0,
+            "z": 0,
+            "feature": {
+                "blockRadius": 310,
+                "customBiome": "temperate/shore/beach",
+                "convergeToHeight": 64,
+                "objectChance": 0,
+                "fractureRadius": {
+                    "style": "IRIS"
+                }
+
+            }
+        },
+        {
+            "x": 0,
+            "z": 0,
+            "feature": {
+                "blockRadius": 600,
+                "customBiome": "temperate/sea/ocean",
+                "convergeToHeight": 50,
+                "objectChance": 0,
+                "fractureRadius": {
+                    "style": "IRIS"
+                }
+            }
+        }
+    ]
 }

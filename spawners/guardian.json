@@ -1,0 +1,11 @@
+{
+    "spawns": [
+        {
+            "entity": "standard/hostile/guardian",
+            "rarity": 1,
+            "minSpawns": 8,
+            "maxSpawns": 40,
+            "energyMultiplier": 0.4
+        }
+    ]
+}

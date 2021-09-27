@@ -2,7 +2,7 @@
     "fill": {"block": "minecraft:cave_air"},
     "verticalRange": {
         "max": 85,
-        "min": 7
+        "min": -58
     },
     "fork": {
         "caves": [{

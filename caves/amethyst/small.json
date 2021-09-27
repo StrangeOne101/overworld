@@ -1,8 +1,8 @@
 {
     "fill": {"block": "minecraft:cave_air"},
     "verticalRange": {
-        "max": 85,
-        "min": 7
+        "max": 60,
+        "min": -50
     },
     "customBiome": "carving/amethyst",
     "fork": {"elipsoids": [{

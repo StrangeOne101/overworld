@@ -1,0 +1,10 @@
+{
+    "seed": 1,
+    "composite": [
+        {
+            "style": {
+                "expression": "spawn"
+            }
+        }
+    ]
+}

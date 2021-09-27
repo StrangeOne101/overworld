@@ -1,0 +1,8 @@
+{
+    "initialSpawns": [
+        {
+            "entity": "standard/hostile/elder_guardian",
+            "rarity": 1
+        }
+    ]
+}
