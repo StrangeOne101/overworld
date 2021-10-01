@@ -3,7 +3,7 @@
     "fill": {"block": "minecraft:cave_air"},
     "verticalRange": {
         "max": 120,
-        "min": 3
+        "min": -60
     },
     "customBiome": "carving/ice",
     "fork": {

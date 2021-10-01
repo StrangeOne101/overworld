@@ -250,7 +250,7 @@
                 "rarity": 28,
                 "caveStartHeight": {
                     "max": 120,
-                    "min": 69,
+                    "min": 23,
                     "style": {"style": "STATIC"}
                 }
             },
@@ -260,7 +260,7 @@
                 "rarity": 14,
                 "caveStartHeight": {
                     "max": 80,
-                    "min": 58,
+                    "min": 10,
                     "style": {"style": "STATIC"}
                 }
             }
